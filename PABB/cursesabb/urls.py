@@ -3,7 +3,7 @@ from cursesabb import views
 
 urlpatterns = [
     
-    path('home',views.home),
+    path('',views.home),
     path('login/',views.login),
     path('cursos/',views.cursos)
     
