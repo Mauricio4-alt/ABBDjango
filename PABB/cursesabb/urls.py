@@ -3,8 +3,8 @@ from cursesabb import views
 
 urlpatterns = [
     
-    path('',views.home),
-    path('cursos/',views.cursos),
-    path('progreso/',views.mostrar_progreso)
+    path('home',views.home),
+    path('login/',views.login),
+    path('cursos/',views.cursos)
     
 ]
